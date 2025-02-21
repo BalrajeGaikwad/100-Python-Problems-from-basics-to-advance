@@ -8,7 +8,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 to be a console input.
 """
 
-"""lines=[]
+lines=[]
 
 while True:
     s=input()
@@ -20,12 +20,12 @@ while True:
 print(lines)
 for sentence in lines:
     print(sentence)
-"""
 
-s=input()
+
+"""s=input()
 
 result=""
 for char in s:
     result+=chr(ord(char)-32) if 'a' <= char <= 'z' else char
 
-print(result)
+print(result)"""
