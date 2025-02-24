@@ -232,5 +232,263 @@ Define a function which can generate a list where the values are square of numbe
 ---------------------------------------
 40 Question 40
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
+----------------------------------------==
+41
+-------------------------------------
+42
+-------------------------------------
+43
+------------------------------------
+44
+----------------------------------
+45
+-----------------------------------
+46
+------------------------------------
+47
+-----------------------------------
+48
+---------------------------------
+49
+---------------------------------
+50
+----------------------------------
+51
+--------------------------------
+52
+--------------------------------
+53
+-------------------------------
+54
+-------------------------------
+55
+---------------------------------
+56
+---------------------------------
+57
+
 
 -------------------------------------------
+
+58 Question 58
+Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
+
+Example: If the following email address is given as input to the program:
+
+john@google.com
+
+Then, the output of the program should be:
+
+john
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+----------------------------------------------
+
+59 Question 59
+Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
+
+Example: If the following email address is given as input to the program:
+
+john@google.com
+
+Then, the output of the program should be:
+
+google
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints:
+
+Use \w to match letters.
+-----------------------------------------
+
+60 Question 60
+Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
+
+Example: If the following words is given as input to the program:
+
+2 cats and 3 dogs.
+
+Then, the output of the program should be:
+
+['2', '3']
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints:
+
+Use re.findall() to find all substring using regex.
+------------------------------------------
+
+61 Question 61
+Print a unicode string "hello world".
+
+Hints:
+
+Use u'strings' format to define unicode string.
+----------------------------------------
+
+62 Question 62
+Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
+
+Hints:
+
+Use unicode() function to convert.
+
+-------------------------------------------
+63 Question 63
+Write a special comment to indicate a Python source code file is in unicode.
+
+Hints:
+--------------------------------------
+64 Question 64
+Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
+
+Example: If the following n is given as input to the program:
+
+5
+
+Then, the output of the program should be:
+
+3.55
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints: Use float() to convert an integer to a float
+---------------------------------------------
+
+65 Question 65
+Write a program to compute:
+
+f(n)=f(n-1)+100 when n>0 and f(0)=1
+
+with a given n input by console (n>0).
+
+Example: If the following n is given as input to the program:
+
+5
+
+Then, the output of the program should be:
+
+500
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints: We can define recursive function in Python.
+-----------------------------------------------
+
+66 Question 66
+The Fibonacci Sequence is computed based on the following formula:
+
+f(n)=0 if n=0 f(n)=1 if n=1 f(n)=f(n-1)+f(n-2) if n>1
+
+Please write a program to compute the value of f(n) with a given n input by console.
+
+Example: If the following n is given as input to the program:
+
+7
+
+Then, the output of the program should be:
+
+13
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints: We can define recursive function in Python.
+-------------------------------------------------
+
+67 Question 67
+The Fibonacci Sequence is computed based on the following formula:
+
+f(n)=0 if n=0 f(n)=1 if n=1 f(n)=f(n-1)+f(n-2) if n>1
+
+Please write a program using list comprehension to print the Fibonacci Sequence in comma separated form with a given n input by console.
+
+Example: If the following n is given as input to the program:
+
+7
+
+Then, the output of the program should be:
+
+0,1,1,2,3,5,8,13
+
+Hints: We can define recursive function in Python. Use list comprehension to generate a list from an existing list. Use string.join() to join a list of strings.
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+---------------------------------------------------------
+
+68 Question 68
+Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.
+
+Example: If the following n is given as input to the program:
+
+10
+
+Then, the output of the program should be:
+
+0,2,4,6,8,10
+
+Hints: Use yield to produce the next value in generator.
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+----------------------------------------------------
+
+69 Question 69
+Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
+
+Example: If the following n is given as input to the program:
+
+100
+
+Then, the output of the program should be:
+
+0,35,70
+
+Hints: Use yield to produce the next value in generator.
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+--------------------------------------------------------------
+
+70 Question 70
+Please write assert statements to verify that every number in the list [2,4,6,8] is even.
+
+Hints: Use "assert expression" to make assertion.
+
+------------------------------------------------
+71 Question 71
+Please write a program which accepts basic mathematic expression from console and print the evaluation result.
+
+Example: If the following string is given as input to the program:
+
+35+3
+
+Then, the output of the program should be:
+
+38
+
+Hints: Use eval() to evaluate an expression.
+----------------------------------------------
+
+72 Question 72
+Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
+
+Hints: Use if/elif to deal with conditions.
+
+------------------------------------------
+73Question 73
+Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
+
+Hints: Use if/elif to deal with conditions.
+-------------------------------------
+
+74Question 74
+Please generate a random float where the value is between 10 and 100 using Python math module.
+
+Hints: Use random.random() to generate a random float in [0,1].
+------------------------------------
+
+75Question 75
+Please generate a random float where the value is between 5 and 95 using Python math module.
+
+Hints: Use random.random() to generate a random float in [0,1].
+
