@@ -491,4 +491,64 @@ Hints: Use random.random() to generate a random float in [0,1].
 Please generate a random float where the value is between 5 and 95 using Python math module.
 
 Hints: Use random.random() to generate a random float in [0,1].
+----------------------------------
+76 Question 76
+Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
+
+Hints: Use random.choice() to a random element from a list.
+-----------------------------------
+
+77 Question 77
+Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.
+
+Hints: Use random.choice() to a random element from a list.
+-----------------------------------
+
+78 Question 78
+Please write a program to generate a list with 5 random numbers between 100 and 200 inclusive.
+
+Hints: Use random.sample() to generate a list of random values.
+-----------------------------------
+
+79 Question 79
+Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
+
+Hints: Use random.sample() to generate a list of random values.
+--------------------------------
+
+80 Question 80
+Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.
+
+Hints: Use random.sample() to generate a list of random values.
+---------------------------------------
+
+81 Question 81
+Please write a program to randomly print a integer number between 7 and 15 inclusive.
+
+Hints: Use random.randrange() to a random integer in a given range.
+---------------------------------------
+
+82 Question 82
+Please write a program to compress and decompress the string "hello world!hello world!hello world!hello world!".
+
+Hints: Use zlib.compress() and zlib.decompress() to compress and decompress a string.
+--------------------------------------
+
+83 Question 83
+Please write a program to print the running time of execution of "1+1" for 100 times.
+
+Hints: Use timeit() function to measure the running time.
+------------------------------------
+
+84 Question 84
+Please write a program to shuffle and print the list [3,6,7,8].
+
+Hints: Use shuffle() function to shuffle a list.
+--------------------------------------
+
+85Question 85
+Please write a program to shuffle and print the list [3,6,7,8].
+
+Hints: Use shuffle() function to shuffle a list.
+-------------------------------------
 
