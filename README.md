@@ -346,19 +346,13 @@ Define a custom exception class which takes a string message as attribute.
 Hints:
 
 To define a custom exception, we need to define a class inherited from Exception.
-
-
 -------------------------------------------
-
 58 Question 58
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
-
 Example: If the following email address is given as input to the program:
 
 john@google.com
-
 Then, the output of the program should be:
-
 john
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
@@ -368,46 +362,36 @@ In case of input data being supplied to the question, it should be assumed to be
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
 
 Example: If the following email address is given as input to the program:
-
 john@google.com
-
 Then, the output of the program should be:
 
 google
-
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints:
 
 Use \w to match letters.
 -----------------------------------------
-
 60 Question 60
 Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
 
 Example: If the following words is given as input to the program:
 
 2 cats and 3 dogs.
-
 Then, the output of the program should be:
-
 ['2', '3']
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
-
 Hints:
 
 Use re.findall() to find all substring using regex.
 ------------------------------------------
-
 61 Question 61
 Print a unicode string "hello world".
-
 Hints:
 
 Use u'strings' format to define unicode string.
 ----------------------------------------
-
 62 Question 62
 Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
@@ -423,20 +407,15 @@ Hints:
 --------------------------------------
 64 Question 64
 Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
-
 Example: If the following n is given as input to the program:
 
 5
-
 Then, the output of the program should be:
-
 3.55
-
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints: Use float() to convert an integer to a float
 ---------------------------------------------
-
 65 Question 65
 Write a program to compute:
 
@@ -445,18 +424,14 @@ f(n)=f(n-1)+100 when n>0 and f(0)=1
 with a given n input by console (n>0).
 
 Example: If the following n is given as input to the program:
-
 5
-
 Then, the output of the program should be:
-
 500
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints: We can define recursive function in Python.
 -----------------------------------------------
-
 66 Question 66
 The Fibonacci Sequence is computed based on the following formula:
 
@@ -465,29 +440,22 @@ f(n)=0 if n=0 f(n)=1 if n=1 f(n)=f(n-1)+f(n-2) if n>1
 Please write a program to compute the value of f(n) with a given n input by console.
 
 Example: If the following n is given as input to the program:
-
 7
-
 Then, the output of the program should be:
-
 13
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints: We can define recursive function in Python.
 -------------------------------------------------
-
 67 Question 67
 The Fibonacci Sequence is computed based on the following formula:
 
 f(n)=0 if n=0 f(n)=1 if n=1 f(n)=f(n-1)+f(n-2) if n>1
-
 Please write a program using list comprehension to print the Fibonacci Sequence in comma separated form with a given n input by console.
 
 Example: If the following n is given as input to the program:
-
 7
-
 Then, the output of the program should be:
 
 0,1,1,2,3,5,8,13
@@ -496,12 +464,10 @@ Hints: We can define recursive function in Python. Use list comprehension to gen
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 ---------------------------------------------------------
-
 68 Question 68
 Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.
 
 Example: If the following n is given as input to the program:
-
 10
 
 Then, the output of the program should be:
@@ -512,23 +478,19 @@ Hints: Use yield to produce the next value in generator.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 ----------------------------------------------------
-
 69 Question 69
 Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
 
 Example: If the following n is given as input to the program:
-
 100
 
 Then, the output of the program should be:
-
 0,35,70
 
 Hints: Use yield to produce the next value in generator.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 --------------------------------------------------------------
-
 70 Question 70
 Please write assert statements to verify that every number in the list [2,4,6,8] is even.
 
@@ -539,11 +501,8 @@ Hints: Use "assert expression" to make assertion.
 Please write a program which accepts basic mathematic expression from console and print the evaluation result.
 
 Example: If the following string is given as input to the program:
-
 35+3
-
 Then, the output of the program should be:
-
 38
 
 Hints: Use eval() to evaluate an expression.
@@ -555,19 +514,19 @@ Please write a binary search function which searches an item in a sorted list. T
 Hints: Use if/elif to deal with conditions.
 
 ------------------------------------------
-73Question 73
+73 Question 73
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
 
 Hints: Use if/elif to deal with conditions.
 -------------------------------------
 
-74Question 74
+74 Question 74
 Please generate a random float where the value is between 10 and 100 using Python math module.
 
 Hints: Use random.random() to generate a random float in [0,1].
 ------------------------------------
 
-75Question 75
+75 Question 75
 Please generate a random float where the value is between 5 and 95 using Python math module.
 
 Hints: Use random.random() to generate a random float in [0,1].
@@ -625,10 +584,103 @@ Please write a program to shuffle and print the list [3,6,7,8].
 
 Hints: Use shuffle() function to shuffle a list.
 --------------------------------------
-
-85Question 85
+85 Question 85
 Please write a program to shuffle and print the list [3,6,7,8].
 
 Hints: Use shuffle() function to shuffle a list.
 -------------------------------------
+86 Question 86
+Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
+
+Hints: Use list[index] notation to get a element from a list.
+-------------------------------------
+87 Question 87
+Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
+
+Hints: Use list comprehension to delete a bunch of element from a list.
+-------------------------------------
+88 Question 88
+By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
+
+Hints: Use list comprehension to delete a bunch of element from a list.
+------------------------------------
+89 Question 89
+By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
+
+Hints: Use list comprehension to delete a bunch of element from a list. Use enumerate() to get (index, value) tuple.
+-------------------------------------
+90 By using list comprehension, please write a program generate a 358 3D array whose each element is 0.
+
+Hints: Use list comprehension to make an array.
+------------------------------------
+91 Question 91
+By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
+
+Hints: Use list comprehension to delete a bunch of element from a list. Use enumerate() to get (index, value) tuple.
+--------------------------------------
+92 Question 92
+By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
+
+Hints: Use list's remove method to delete a value.
+------------------------------------
+93 With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.
+
+Hints: Use set() and "&=" to do set intersection operation.
+------------------------------------
+94 Question 94
+With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
+
+Hints: Use set() to store a number of values without duplicate.
+------------------------------------
+95 Question 95
+Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
+
+Hints: Use Subclass(Parentclass) to define a child class.
+------------------------------------
+96 Question 96
+Please write a program which count and print the numbers of each character in a string input by console.
+
+Example: If the following string is given as input to the program:
+abcdefgabc
+Then, the output of the program should be:
+
+a,2 c,2 b,2 e,1 d,1 g,1 f,1
+
+Hints: Use dict to store key/value pairs. Use dict.get() method to lookup a key with default value.
+------------------------------------
+97 Question 97
+Please write a program which accepts a string from console and print it in reverse order.
+Example: If the following string is given as input to the program:
+
+rise to vote sir
+Then, the output of the program should be:
+
+ris etov ot esir
+
+Hints: Use list[::-1] to iterate a list in a reverse order.
+------------------------------------
+98 Question 98
+Please write a program which accepts a string from console and print the characters that have even indexes.
+
+Example: If the following string is given as input to the program:
+H1e2l3l4o5w6o7r8l9d
+
+Then, the output of the program should be:
+Helloworld
+Hints: Use list[::2] to iterate a list by step 2.
+------------------------------------
+99 Question 99
+Please write a program which prints all permutations of [1,2,3]
+
+Hints: Use itertools.permutations() to get permutations of list.
+-------------------------------------
+100 Question 100
+Write a program to solve a classic ancient Chinese puzzle: We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have?
+
+Hint: Use for loop to iterate all possible solutions.
+
+
+
+
+
 
